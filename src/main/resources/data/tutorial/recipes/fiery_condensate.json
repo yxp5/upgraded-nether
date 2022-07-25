@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PIP",
+    "IBI",
+    "PIP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:magma_block"
+    },
+    "I": {
+      "item": "tutorialmod:blazing_ingot"
+    },
+    "B": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:fiery_condensate",
+    "count": 4
+  },
+  "group": "tutorial"
+}

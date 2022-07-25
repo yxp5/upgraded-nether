@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ttt",
+    "tIt",
+    "ttt"
+  ],
+  "key": {
+    "t": {
+      "item": "tutorialmod:blazing_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_boots"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:blazing_boots",
+    "count": 1
+  },
+  "group": "tutorial"
+}
