@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  I",
+    " C ",
+    "S  "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "tutorialmod:blazing_ingot"
+    },
+    "C": {
+      "item": "tutorialmod:blazing_core"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:blazing_dagger",
+    "count": 1
+  },
+  "group": "tutorial"
+}
