@@ -5,7 +5,6 @@ import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
@@ -17,7 +16,7 @@ import java.util.List;
 public class BlazingAxeBase extends AxeItem {
 
     public BlazingAxeBase(ToolMaterial material) {
-        super(material, 5.5f, -3f, new Settings().group(Main.NEW_ITEM_GROUP));
+        super(material, 5.5f, -3f, new Settings().group(Main.BETTER_NETHER));
     }
 
     @Override

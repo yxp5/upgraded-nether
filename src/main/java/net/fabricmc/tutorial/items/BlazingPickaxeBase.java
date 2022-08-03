@@ -14,7 +14,7 @@ import java.util.List;
 public class BlazingPickaxeBase extends PickaxeItem {
 
     public BlazingPickaxeBase(ToolMaterial material) {
-        super(material, 1, -2.8f, new Item.Settings().group(Main.NEW_ITEM_GROUP));
+        super(material, 1, -2.8f, new Item.Settings().group(Main.BETTER_NETHER));
     }
 
     @Override

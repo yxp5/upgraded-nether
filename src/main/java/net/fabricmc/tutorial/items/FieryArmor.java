@@ -7,15 +7,15 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
-public class BlazingArmor implements ArmorMaterial {
+public class FieryArmor implements ArmorMaterial {
 
     private static final int[] BASE_DURABILITY = new int[] {13, 15, 16, 11};
-    private static final int[] PROTECTION_VALUES = new int[] {2, 5, 6 ,2};
+    private static final int[] PROTECTION_VALUES = new int[] {2, 5, 7 ,3};
 
 
     @Override
     public int getDurability(EquipmentSlot slot) {
-        return BASE_DURABILITY[slot.getEntitySlotId()] * 16;
+        return BASE_DURABILITY[slot.getEntitySlotId()] * 20;
     }
 
     @Override
@@ -25,22 +25,22 @@ public class BlazingArmor implements ArmorMaterial {
 
     @Override
     public int getEnchantability() {
-        return 12;
+        return 14;
     }
 
     @Override
     public SoundEvent getEquipSound() {
-        return SoundEvents.ITEM_ARMOR_EQUIP_LEATHER;
+        return SoundEvents.ITEM_ARMOR_EQUIP_CHAIN;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Main.BLAZING_INGOT);
+        return Ingredient.ofItems(Main.FIERY_INGOT);
     }
 
     @Override
     public String getName() {
-        return "blazing";
+        return "fiery";
     }
 
     @Override
@@ -50,6 +50,6 @@ public class BlazingArmor implements ArmorMaterial {
 
     @Override
     public float getKnockbackResistance() {
-        return 0;
+        return 1;
     }
 }

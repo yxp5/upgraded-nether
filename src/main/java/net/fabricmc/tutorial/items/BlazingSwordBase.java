@@ -4,7 +4,6 @@ import net.fabricmc.tutorial.Main;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.text.Text;
@@ -17,7 +16,7 @@ import java.util.List;
 public class BlazingSwordBase extends SwordItem {
 
     public BlazingSwordBase(ToolMaterial material) {
-        super(material, 3, -2.5f, new Settings().group(Main.NEW_ITEM_GROUP));
+        super(material, 3, -2.5f, new Settings().group(Main.BETTER_NETHER));
     }
 
     @Override

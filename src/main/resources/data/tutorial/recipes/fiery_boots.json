@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ttt",
+    "tIt",
+    "ttt"
+  ],
+  "key": {
+    "t": {
+      "item": "tutorialmod:fiery_ingot"
+    },
+    "I": {
+      "item": "tutorialmod:blazing_boots"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:fiery_boots",
+    "count": 1
+  },
+  "group": "tutorial"
+}

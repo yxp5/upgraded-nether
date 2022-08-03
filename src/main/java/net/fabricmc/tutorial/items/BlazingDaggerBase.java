@@ -4,18 +4,12 @@ import net.fabricmc.tutorial.Main;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.effect.StatusEffect;
-import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
-import net.minecraft.util.ActionResult;
 import net.minecraft.util.Formatting;
-import net.minecraft.util.Hand;
 import net.minecraft.world.World;
 
 import java.util.List;
@@ -23,7 +17,7 @@ import java.util.List;
 public class BlazingDaggerBase extends SwordItem {
 
     public BlazingDaggerBase(ToolMaterial material) {
-        super(material, 0, -1f, new Settings().group(Main.NEW_ITEM_GROUP));
+        super(material, 0, -1f, new Settings().group(Main.BETTER_NETHER));
     }
 
     @Override

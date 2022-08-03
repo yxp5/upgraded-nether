@@ -2,10 +2,12 @@
   "itemGroup.tutorial.general": "Tutorial Mod Items",
   "item.tutorialmod.blazing_ingot": "§4Blazing Ingot",
   "item.tutorialmod.blazing_core": "§4Blazing Core",
+
   "item.tutorialmod.blazing_helmet": "§4Blazing Helmet",
   "item.tutorialmod.blazing_chestplate": "§4Blazing Chestplate",
   "item.tutorialmod.blazing_leggings": "§4Blazing Leggings",
   "item.tutorialmod.blazing_boots": "§4Blazing Boots",
+
   "item.tutorialmod.blazing_pickaxe": "§4Blazing Pickaxe",
   "item.tutorialmod.blazing_axe": "§4Blazing Axe",
   "item.tutorialmod.blazing_shovel": "§4Blazing Shovel",
@@ -13,5 +15,11 @@
   "item.tutorialmod.blazing_sword": "§4Blazing Sword",
 
   "item.tutorialmod.fiery_condensate": "§4Fiery Condensate",
-  "item.tutorialmod.fiery_core": "§4Fiery Core"
+  "item.tutorialmod.fiery_core": "§4Fiery Core",
+  "item.tutorialmod.fiery_ingot": "§4Fiery Ingot",
+
+  "item.tutorialmod.fiery_helmet": "§4Fiery Helmet",
+  "item.tutorialmod.fiery_chestplate": "§4Fiery Chestplate",
+  "item.tutorialmod.fiery_leggings": "§4Fiery Leggings",
+  "item.tutorialmod.fiery_boots": "§4Fiery Boots"
 }
