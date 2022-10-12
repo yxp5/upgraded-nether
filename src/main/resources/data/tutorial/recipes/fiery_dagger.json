@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  I",
+    " C ",
+    "S  "
+  ],
+  "key": {
+    "S": {
+      "item": "tutorialmod:blazing_dagger"
+    },
+    "I": {
+      "item": "tutorialmod:fiery_ingot"
+    },
+    "C": {
+      "item": "tutorialmod:fiery_core"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:fiery_dagger",
+    "count": 1
+  },
+  "group": "tutorial"
+}

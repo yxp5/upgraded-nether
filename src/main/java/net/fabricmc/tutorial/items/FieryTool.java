@@ -4,23 +4,23 @@ import net.fabricmc.tutorial.Main;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class BlazingTool implements ToolMaterial {
+public class FieryTool implements ToolMaterial {
 
-    public static final BlazingTool INSTANCE = new BlazingTool();
+    public static final FieryTool INSTANCE = new FieryTool();
 
     @Override
     public int getDurability() {
-        return 400;
+        return 1000;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 6.5f;
+        return 7.5f;
     }
 
     @Override
     public float getAttackDamage() {
-        return 2.5f;
+        return 3.5f;
     }
 
     @Override
@@ -30,11 +30,11 @@ public class BlazingTool implements ToolMaterial {
 
     @Override
     public int getEnchantability() {
-        return 17;
+        return 19;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Main.BLAZING_INGOT);
+        return Ingredient.ofItems(Main.FIERY_INGOT);
     }
 }

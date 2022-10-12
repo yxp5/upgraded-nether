@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "tutorialmod:blazing_sword"
+  },
+  "addition": {
+    "item": "tutorialmod:fiery_ingot"
+  },
+  "result": {
+    "item": "tutorialmod:fiery_sword"
+  }
+}

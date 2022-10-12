@@ -21,7 +21,7 @@ public class BlazingArmorBase extends ArmorItem {
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
         // Basic Info
         tooltip.add(new TranslatableText("As strong as iron armor but with more durability and toughness"));
-        tooltip.add(new TranslatableText("Grant you better luck while enchanting a piece of blazing armor"));
+        tooltip.add(new TranslatableText("Grant you better chance while enchanting"));
 
         if (Screen.hasShiftDown()) {
             tooltip.add(new TranslatableText("Tier 1 Armor").formatted(Formatting.GRAY));

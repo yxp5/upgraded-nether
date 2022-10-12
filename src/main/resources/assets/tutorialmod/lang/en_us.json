@@ -8,18 +8,24 @@
   "item.tutorialmod.blazing_leggings": "§4Blazing Leggings",
   "item.tutorialmod.blazing_boots": "§4Blazing Boots",
 
+  "item.tutorialmod.blazing_sword": "§4Blazing Sword",
   "item.tutorialmod.blazing_pickaxe": "§4Blazing Pickaxe",
   "item.tutorialmod.blazing_axe": "§4Blazing Axe",
   "item.tutorialmod.blazing_shovel": "§4Blazing Shovel",
   "item.tutorialmod.blazing_dagger": "§4Blazing Dagger",
-  "item.tutorialmod.blazing_sword": "§4Blazing Sword",
 
-  "item.tutorialmod.fiery_condensate": "§4Fiery Condensate",
-  "item.tutorialmod.fiery_core": "§4Fiery Core",
   "item.tutorialmod.fiery_ingot": "§4Fiery Ingot",
+  "item.tutorialmod.fiery_core": "§4Fiery Core",
+  "item.tutorialmod.fiery_condensate": "§4Fiery Condensate",
 
   "item.tutorialmod.fiery_helmet": "§4Fiery Helmet",
   "item.tutorialmod.fiery_chestplate": "§4Fiery Chestplate",
   "item.tutorialmod.fiery_leggings": "§4Fiery Leggings",
-  "item.tutorialmod.fiery_boots": "§4Fiery Boots"
+  "item.tutorialmod.fiery_boots": "§4Fiery Boots",
+
+  "item.tutorialmod.fiery_sword": "§4Fiery Sword",
+  "item.tutorialmod.fiery_pickaxe": "§4Fiery Pickaxe",
+  "item.tutorialmod.fiery_axe": "§4Fiery Axe",
+  "item.tutorialmod.fiery_shovel": "§4Fiery Shovel",
+  "item.tutorialmod.fiery_dagger": "§4Fiery Dagger"
 }

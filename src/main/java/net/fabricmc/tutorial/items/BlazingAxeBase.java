@@ -23,7 +23,7 @@ public class BlazingAxeBase extends AxeItem {
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
         // Basic Info
         tooltip.add(new TranslatableText("Faster than iron axe with more durability"));
-        tooltip.add(new TranslatableText("Grant you better luck while enchanting this axe"));
+        tooltip.add(new TranslatableText("Grant you better chance while enchanting"));
 
         if (Screen.hasShiftDown()) {
             tooltip.add(new TranslatableText("Tier 1 Tool").formatted(Formatting.GRAY));

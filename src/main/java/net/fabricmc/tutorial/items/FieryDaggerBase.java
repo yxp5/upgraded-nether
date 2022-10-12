@@ -15,20 +15,20 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class BlazingDaggerBase extends SwordItem {
+public class FieryDaggerBase extends SwordItem {
 
-    public BlazingDaggerBase(ToolMaterial material) {
-        super(material, 0, -1f, new Settings().group(Main.BETTER_NETHER));
+    public FieryDaggerBase(ToolMaterial material) {
+        super(material, 0, -0.8f, new Settings().group(Main.BETTER_NETHER));
     }
 
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
         // Basic Info
-        tooltip.add(new TranslatableText("Favorite weapon of Nether Hunters"));
+        tooltip.add(new TranslatableText("Trusted weapon of Nether Scouts"));
         tooltip.add(new TranslatableText("Deals Insane damage per second"));
 
         if (Screen.hasShiftDown()) {
-            tooltip.add(new TranslatableText("Tier 1 Weapon").formatted(Formatting.GRAY));
+            tooltip.add(new TranslatableText("Tier 2 Weapon").formatted(Formatting.YELLOW));
         } else {
             tooltip.add(new TranslatableText("Press Shift for more information").formatted(Formatting.DARK_GRAY));
         }

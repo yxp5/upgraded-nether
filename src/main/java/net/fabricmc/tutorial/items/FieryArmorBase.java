@@ -23,7 +23,7 @@ public class FieryArmorBase extends ArmorItem {
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
         // Basic Info
         tooltip.add(new TranslatableText("A hot armor with decent protection, durability and toughness"));
-        tooltip.add(new TranslatableText("You become even luckier while enchanting"));
+        tooltip.add(new TranslatableText("Grant you even better chance while enchanting"));
 
         if (Screen.hasShiftDown()) {
             tooltip.add(new TranslatableText("Tier 2 Armor").formatted(Formatting.YELLOW));
