@@ -1,5 +1,8 @@
 {
   "itemGroup.tutorial.general": "Tutorial Mod Items",
+  "itemGroup.tutorialmod.tier_1": "Tier 1 Items",
+  "itemGroup.tutorialmod.tier_2": "Tier 2 Items",
+
   "item.tutorialmod.blazing_ingot": "§4Blazing Ingot",
   "item.tutorialmod.blazing_core": "§4Blazing Core",
 
@@ -13,6 +16,8 @@
   "item.tutorialmod.blazing_axe": "§4Blazing Axe",
   "item.tutorialmod.blazing_shovel": "§4Blazing Shovel",
   "item.tutorialmod.blazing_dagger": "§4Blazing Dagger",
+
+  "block.tutorialmod.blazing_block": "§4Block of Blaze",
 
   "item.tutorialmod.fiery_ingot": "§4Fiery Ingot",
   "item.tutorialmod.fiery_core": "§4Fiery Core",
